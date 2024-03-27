@@ -15,15 +15,15 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-   def newton_method(n,n_iter):
-       a=float(n)
-       for i in range(n_iter):
-           n=0.5*(n+a/n)
-           return n
-   a=int(input())
-   n_iter=100
-   n=newton_method(a,n_iter)
-   print(f"Square root of the number: {n}")
+      def newton_method(n,n_iter):
+          a=float(n)
+          for i in range(n_iter):
+              n=0.5*(n+a/n)
+              return n
+      a=int(input())
+      n_iter=100
+      n=newton_method(a,n_iter)
+      print(f"Square root of the number: {n}")
 
 ## Output:
 
